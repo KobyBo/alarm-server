@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.outer-grid {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.outer-square {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 98%;
+  height: 94%;
+  margin: 1%;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-grid {
+  width: 33.3%;
+  height: 33.3%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+.inner-square {
+  height: 90%;
+  width: 90%;
+  font-size: 8vw;
+}
